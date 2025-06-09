@@ -1,6 +1,7 @@
 # Tetris with Pygame
 
-This repository contains a simple Tetris game implemented in Python using the Pygame library.
+This repository contains a Tetris game implemented in Python using the Pygame library.
+It supports hold pieces, ghost pieces, 7-bag randomization and basic scoring.
 
 ## Requirements
 
@@ -21,4 +22,9 @@ To start the game, run:
 python tetris.py
 ```
 
-Use the arrow keys to move the pieces and the up arrow to rotate.
+Controls:
+
+- Arrow keys: move/soft drop
+- Up arrow: rotate
+- Space: hard drop
+- C: hold piece
